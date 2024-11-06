@@ -1,43 +1,54 @@
-# EatSmart
+Cahier des Charges Simplifié
+Projet : EatSmart
+Nom du groupe : Aromea
 
-## Description
-[Présenter en une phrase l'application]
 
-Elle comprend deux parties principales :
+1. Description du projet
+Projet EatSmart 
 
-[Les 2 parties de l'application]
 
-## Fonctionnalités principales
-### Front-office (eatSmartFront)
+2. Objectif principal
+L'objectif de ce projet est de pouvoir faire le lien entre une page html et une base de donne afin de pouvoir créer une application  qui permettra la bonne mise en place des différents échanges entre le client et les employés 
 
-[Fonctionnalités du front]
 
-### Back-office (eatSmartBack)
+3. Fonctionnalités principales
 
-[Fonctionnalités du back]
+Cette application doit pouvoir prévenir le client lorsque sa commande est prête , le client peut choisir un menu sur le site internet du restaurant  
 
-## Installation
+3.1 Front-office (eatSmartFront)
 
-### Prérequis
-- **Serveur web local** avec support PHP (ex : XAMPP)
-- **SGBD MySQL**
-- **Git** (pour la gestion des versions)
+Fonctionnalité 1 :
+Voir les commandes .
 
-### Étapes d'installation
+Fonctionnalité 2 :
+Notifier le client quand la commande est prête 
 
-1. Clonez ce dépôt :
+Fonctionnalité 3 :
+Séparer le contenu dédié au client et au cuisto 
 
-[Ligne de commande pour cloner votre dépot]
+3.2 Back-office (eatSmartBack)
+Fonctionnalité 1 :
+connecter à une base de donnés 
 
-2. Déplacez-vous dans le répertoire du projet :
+Fonctionnalité 2 :
+historique des commandes
 
-[Ligne de commande]
+Fonctionnalité 3 :
+changer les plats des menus 
 
-## Technologies utilisées
 
-- **Frontend** : [Technologies]
-- **Backend** : [Technologies]
-- **Base de données** : [Technologies]
 
-## Contributeurs
-- **Développeurs** : (Noms des membres de l'équipe)
+4. Technologies utilisées
+
+Frontend : (HTML , CSS , JS )
+Backend : (PhpMyAdmin , Mysql  )
+Base de données : ( Wamp)
+
+
+5. Équipe projet
+Responsable de projet : BOUABBOUNE
+Développeurs : BOUABBOUNE & KAHLA
+
+test: test
+
+

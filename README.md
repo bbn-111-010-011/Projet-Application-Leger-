@@ -2,47 +2,24 @@ Cahier des Charges Simplifié
 Projet : EatSmart
 Nom du groupe : Aromea
 
+ # 🍽️ EatSmart – Site Web de Restaurant
 
-1. Description du projet
-Projet EatSmart 
+**EatSmart** est une application web moderne dédiée à un restaurant, permettant aux clients de consulter le menu, passer des commandes en ligne, et gérer leur compte via un système de connexion sécurisé. Côté gestion, une base de données assure le suivi des commandes, utilisateurs et plats.
 
+## 🌐 Fonctionnalités principales
 
-2. Objectif principal
-L'objectif de ce projet est de pouvoir faire le lien entre une page html et une base de donne afin de pouvoir créer une application  qui permettra la bonne mise en place des différents échanges entre le client et les employés 
+- 🧾 **Affichage dynamique du menu** (par catégories, plats, prix, descriptions)
+- 🛒 **Système de commande en ligne** (sélection, panier, validation)
+- 👤 **Authentification des clients** (inscription, connexion, déconnexion)
+- 📊 **Gestion en base de données** des utilisateurs, plats, commandes
+- 🧑‍💼 **Espace administrateur** *(optionnel)* pour gérer le menu et les commandes
 
+## 🛠️ Technologies utilisées
 
-3. Fonctionnalités principales
-
-Cette application doit pouvoir prévenir le client lorsque sa commande est prête , le client peut choisir un menu sur le site internet du restaurant  
-
-3.1 Front-office (eatSmartFront)
-
-Fonctionnalité 1 :
-Voir les commandes .
-
-Fonctionnalité 2 :
-Notifier le client quand la commande est prête 
-
-Fonctionnalité 3 :
-Séparer le contenu dédié au client et au cuisto 
-
-3.2 Back-office (eatSmartBack)
-Fonctionnalité 1 :
-connecter à une base de donnés 
-
-Fonctionnalité 2 :
-historique des commandes
-
-Fonctionnalité 3 :
-changer les plats des menus 
-
-
-
-4. Technologies utilisées
-
-Frontend : (HTML , CSS , JS )
-Backend : (PhpMyAdmin , Mysql  )
-Base de données : ( Wamp)
+- **Frontend** : HTML5, CSS3, JavaScript (avec ou sans framework comme React)
+- **Backend** : Node.js + Express *(ou PHP / Django selon ton choix)*
+- **Base de données** : MongoDB / MySQL / PostgreSQL
+- **Authentification** : JWT / Sessions / bcrypt (pour sécuriser les mots de passe)
 
 
 5. Équipe projet
